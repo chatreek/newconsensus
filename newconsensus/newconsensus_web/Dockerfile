@@ -1,4 +1,5 @@
 FROM node:14-alpine 
+LABEL maintainer "Chatree Kunjai <soloman.tc@gmail.com>"
 RUN mkdir -p /home/newconsensus/
 WORKDIR /home/newconsensus/
 COPY . /home/newconsensus/
